@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RestController
 public class GithubCicdApplication {
 
-	@Getmapping("/welcome")
+	@GetMapping("/welcome")
 	public String welcome() {
 		return "Welcome to JavaTechie";
 	}
